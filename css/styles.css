@@ -1,0 +1,15 @@
+/*Index*/
+.h1{
+    color: green;
+    background-color: rgba(233, 161, 35, 0.57);
+    font-size: 35px;
+}
+
+/*Pagian Pinterest*/
+.ul , .milanesa{
+    color: red;
+}
+/*colores de la pagina:
+1. red
+2. 233, 161, 35, 0.57)
+3. 255 40 255*/

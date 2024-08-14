@@ -1,0 +1,64 @@
+.lista{
+    color: #194118
+}
+.h1{
+    font-family: verdana;
+    font-size: 30px;
+    background-color: #0f0;
+    color: #d02893
+}
+.h3{
+    color: #64e3a1;
+    font-family: verdana;
+    font-size: 25px;
+}
+.seleccion{
+    background-color: #E6F9F2;
+    width: 150px;
+}
+.parrafo , .milanesa{
+    background-color: beige;
+}
+/*cambiar de color parrafo y milanesa
+1. 138, 193, 170
+2. #D1B1F1
+3. lightgreen*/
+
+.div1{
+    width: 50%;
+    height: 90vh;
+    background-color: #95bcd0;
+    margin: auto;
+}
+.div2{
+    width: 80%;
+    height: 70vh;
+    background-color: #1e7b93;
+    margin: auto;
+    margin-top: 10px;
+}
+.div3{
+    width: 60%;
+    height: 40vh;
+    background-color:#27e6ec;
+}
+.div4{
+    width: 40%;
+    height: 20vh;
+    background-color: #0f354e;
+}
+.p3{
+    padding: 30px;
+}
+.p4{
+    padding: 90px;
+}
+.p1{
+    padding: 55px;
+}
+.p2{
+    padding: 78px;
+}
+.email{
+    width: 60px;
+}

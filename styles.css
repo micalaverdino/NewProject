@@ -1,0 +1,100 @@
+@media (min-width: 992px){
+    .lista{
+        display: flex;
+        flex-direction: row;
+    }
+    }
+/*BARRA NAVEGACIÓN*/
+.lista{
+    color: #194118;
+    list-style-type: none;
+    display: flex;
+    border: 5px solid #194118;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+.li1 {
+    padding: 30px;
+    color: #00f;
+}
+.lista li{
+    background-color: rgba(215, 243, 157, 0.679);
+    flex-grow: 2px;
+}
+.h1{
+    font-family: verdana;
+    font-size: 30px;
+    background-color: #0f0;
+    color: #d02893
+}
+.h3{
+    color: #64e3a1;
+    font-family: verdana;
+    font-size: 25px;
+}
+.seleccion{
+    background-color: #E6F9F2;
+    width: 150px;
+}
+.parrafo , .milanesa{
+    background-color: beige;
+}
+/*cambiar de color parrafo y milanesa
+1. 138, 193, 170
+2. #D1B1F1
+3. lightgreen*/
+
+.div1{
+    width: 50%;
+    height: 90vh;
+    background-color: #95bcd0;
+    margin: auto;
+}
+.div2{
+    width: 80%;
+    height: 70vh;
+    background-color: #1e7b93;
+    margin: auto;
+    margin-top: 10px;
+}
+.div3{
+    width: 60%;
+    height: 40vh;
+    background-color:#27e6ec;
+}
+.div4{
+    width: 40%;
+    height: 20vh;
+    background-color: #0f354e;
+}
+.p3{
+    padding: 30px;
+}
+.p4{
+    padding: 90px;
+}
+.p1{
+    padding: 55px;
+}
+.p2{
+    padding: 78px;
+}
+.email{
+    width: 60px;
+}
+/*BODY FONDO*/
+.fondo{
+    background-image: url("../imagenes/pngtree-green-hand-drawn-leaves-watercolor-seamless-pattern-for-postcard-print-design-image_13866275.png");
+    background-size: cover;
+    background-repeat: repeat;
+}
+/*FOOTER*/
+.footer{
+    display: flex;
+}
+.divfoot1{
+    width: 100%;
+    height: 20vh;
+    background-color: #2e925e;
+}

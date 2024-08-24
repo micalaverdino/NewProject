@@ -97,4 +97,50 @@
     width: 100%;
     height: 20vh;
     background-color: #2e925e;
+    display: flex;
+}
+.divfoot{
+    padding: 5px;
+    margin-bottom: 15px;
+}
+/*PAG NOSOTROS*/
+@media (min-width: 992px){
+    .card-conteiner{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px;
+        display: grid;
+    }
+    .title2{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    }
+.card-conteiner{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+.card{
+    background-color: burlywood;
+    padding: 2px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.card-title , .card-p{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+.title2{
+    background-color: burlywood;
+    padding: 2px;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
